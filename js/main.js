@@ -6,7 +6,7 @@ id: "tttttt",
 name: "Green Wrist band",
 price: 50,
 desc: "lorum jkhnksfvhjnjknlkk",
-img: "img/wrist-band1.png"
+img: "img/wrist-band1.png",
 },
 {
     id: "jnbijiji",
@@ -40,13 +40,16 @@ let generateproduct = () => {
         <h4>${name}</h4>
         <p>${desc}</p>
         <div class="rating">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-o"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-fill"></i>
+        <i class="bi bi-star-half"></i>
         </div>
         <p>$${price}</p>
+        <i class="bi bi-dash-lg"></i>
+
+        <i class="bi bi-plus-lg"></i>
     </div>
         `;
     }).join(""));
