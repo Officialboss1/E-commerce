@@ -16,7 +16,9 @@
     <div class="header">
     <div class="cotainer">
         <div class="navbar">
+            <a href="index.html">
             <div class="logo"><span>K</span>store</div>
+        </a>
             <nav>
                 <ul id="MenuItems">
                     <li><a href="#">Home</a></li>
@@ -26,8 +28,10 @@
                     <li><a href="acount.html">Account</a></li>
                 </ul>
             </nav>
-            <img src="img/cart-alt-regular-60.png" width="30px" height="30px">
-            <img src="" class="menu-icon" onclick="menutoggle()">
+            <div class="cart">
+                <a href="cart.html"> <img src="img/cart-alt-regular-60.png" width="30px" height="30px"></a>
+                <div class="cartAmount" id="cartAmount">0</div>
+                 </div>
         </div>
         <div class="row">
             <div class="col-2">
@@ -320,9 +324,11 @@
     </div>
 
 
-    <!----script--->
+    
 
 </body>
+<!----script--->
+<script src="js/Data.js"></script>
 <script src="js/main.js">
 </script>
 </html>

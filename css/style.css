@@ -19,8 +19,10 @@ span{
 }
 .navbar{
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding: 20px;
+    background-color: #000; 
 }
 nav{
     flex: 1;
@@ -43,9 +45,7 @@ p{
 }
 .cotainer{
     max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin: 0 20px;
 }
 .row{
     display: flex;
@@ -109,7 +109,14 @@ margin: 25px 0;
     min-width: 200px;
     margin-bottom: 50px;
     transition: 0.5s;
+    align-items: center;
 }
+.plus-minus{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+
 .col-4 img{
     width: 100%;
 }
@@ -138,8 +145,10 @@ h4{
 }
 .col-4 p{
     font-size: 14px;
+    justify-content: space-between;
+    margin-top: 10px;
 }
-.rating .fa{
+.rating .bi{
     color: #ff523b;
 }
 .col-4:hover{
@@ -294,3 +303,37 @@ ul{
         flex-basis: 100%;
     }
 }
+
+
+.cart{
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+}
+
+.cartAmount{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
