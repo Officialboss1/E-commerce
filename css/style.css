@@ -44,7 +44,7 @@ p{
     color: #555;
 }
 .cotainer{
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: 0 20px;
 }
 .row{
@@ -63,7 +63,7 @@ p{
 }
 .col-2 h1{
     color: white;
-font-size: 50px;
+font-size: 65px;
 line-height: 60px;
 margin: 25px 0;
 }
@@ -97,10 +97,11 @@ margin: 25px 0;
     width: 100%;
 }
 .small-container{
-    max-width: 1080px;
+  /*  max-width: 1080px; */
+  width: 100%;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
 }
 
 .col-4{
